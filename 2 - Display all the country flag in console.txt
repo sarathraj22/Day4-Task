@@ -8,7 +8,6 @@ xhr.onload = function () {
     const data = JSON.parse(xhr.response);
     for (let i = 0; i < data.length; i++) {
         console.log(data[i].flags);
-        console.log(data[i].names);
     }
 };
 
